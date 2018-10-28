@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Ted:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ted_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Ted/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Ted" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar" />
+          <element id="library" level="project" name="jaxb-api-2.2" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="Ted:ear exploded" />
+    </root>
+  </artifact>
+</component>
